@@ -104,3 +104,23 @@ $ python scripts/fetch_feeds.py
 ~~~
 
 The JSON file for each fetch attempt includes metadata -- such as the headers, HTTP status code, and datetime of the request -- as well as a `response_text` that contains the raw text of the server response. The HTTP request will automatically follow redirects, so everything is either a `200` or some kind of error code. However, there is a `requested_url` -- which corresponds to the URL that came from Facebook's original document -- and a `response_url`, which can be used to compare against `requested_url` to see if a redirect occurred. This is a hacky way to deal with some redirects not pointing to actual RSS resources, e.g [http://www.nationaljournal.com/?rss=1](http://www.nationaljournal.com/?rss=1).
+
+
+## Metrics
+
+There's a [scripts/metrics.py] that simply counts up the metadata:
+
+~~~
+Status code metrics:
+792: 200
+ 44: 404
+ 23: ConnectionError
+ 20: 403
+  3: 400
+  1: 502
+  1: InvalidSchema
+  1: 500
+  1: 429
+
+Of the 792 requests that were successful, 109 were likely redirects
+~~~
