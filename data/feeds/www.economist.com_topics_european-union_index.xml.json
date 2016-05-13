@@ -1,0 +1,20 @@
+{
+  "requested_url": "http://www.economist.com/topics/european-union/index.xml",
+  "fetched_at": "2016-05-12T23:54:05.222171",
+  "status_code": 403,
+  "response_text": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>403 You are banned from this site.  Please contact via a different client configuration if you believe that this is a mistake.</title>\n  </head>\n  <body>\n    <h1>Error 403 You are banned from this site.  Please contact via a different client configuration if you believe that this is a mistake.</h1>\n    <p>You are banned from this site.  Please contact via a different client configuration if you believe that this is a mistake.</p>\n    <h3>Guru Meditation:</h3>\n    <p>XID: 394800731</p>\n    <hr>\n    <p>Varnish cache server</p>\n  </body>\n</html>\n",
+  "headers": {
+    "X-Iinfo": "10-81135038-81127822 PNNN RT(1463122301182 6) q(0 0 0 -1) r(1 1) U5",
+    "Retry-After": "5",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Set-Cookie": "visid_incap_121505=hdRoepjtSkK2sHd7ehB2Rn15NVcAAAAAQUIPAAAAAADESNd5ZbZCpuHYh7uoCbsv; expires=Fri, 12 May 2017 08:49:58 GMT; path=/; Domain=.economist.com, nlbi_121505=L67MZSAVRAEKW+9OA0pflAAAAACO8UOFSfrpNy2Granw+xv5; path=/; Domain=.economist.com, incap_ses_133_121505=A8N5YtYTN3yHTQTRRITYAX15NVcAAAAAgeCUeJJ/Sm4chIIM+X6rTA==; path=/; Domain=.economist.com, ___utmvmOFuZKyc=beTclLwXYLa; path=/; Max-Age=900, ___utmvaOFuZKyc=QBS\u0001MCaU; path=/; Max-Age=900, ___utmvbOFuZKyc=hZV\r\n    XcgOlalp: AtX; path=/; Max-Age=900",
+    "Date": "Fri, 13 May 2016 06:51:41 GMT",
+    "Content-Encoding": "gzip",
+    "Server": "Varnish",
+    "X-CDN": "Incapsula",
+    "Content-Type": "text/html; charset=utf-8",
+    "X-Varnish": "394800731"
+  },
+  "response_url": "http://www.economist.com/topics/european-union/index.xml"
+}

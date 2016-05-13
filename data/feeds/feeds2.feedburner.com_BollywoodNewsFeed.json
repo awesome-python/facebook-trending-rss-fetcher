@@ -1,0 +1,20 @@
+{
+  "requested_url": "http://feeds2.feedburner.com/BollywoodNewsFeed",
+  "fetched_at": "2016-05-12T23:53:26.226088",
+  "status_code": 200,
+  "response_text": "<html>\r\n<head>\r\n<meta name=\"robots\" content=\"noarchive\" />\r\n<meta name=\"googlebot\" content=\"nosnippet\" />\r\n</head>\r\n<body>\r\n<div align=center>\r\n<h3>Error. Page cannot be displayed. Please contact your service provider for more details.  (23)</h3>\r\n</div>\r\n</body>\r\n</html>",
+  "headers": {
+    "X-XSS-Protection": "1; mode=block",
+    "Content-Length": "193",
+    "Last-Modified": "Fri, 13 May 2016 06:51:03 GMT",
+    "Cache-Control": "private, max-age=0",
+    "Date": "Fri, 13 May 2016 06:51:03 GMT",
+    "Content-Encoding": "gzip",
+    "Server": "GSE",
+    "ETag": "ZD0K3erRY2sHSNhCrWbIiDvVeJk",
+    "Expires": "Fri, 13 May 2016 06:51:03 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "X-Content-Type-Options": "nosniff"
+  },
+  "response_url": "http://feeds2.feedburner.com/BollywoodNewsFeed"
+}

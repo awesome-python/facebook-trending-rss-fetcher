@@ -1,0 +1,20 @@
+{
+  "requested_url": "http://www.economist.com/feeds/print-sections/76/britain.xml",
+  "fetched_at": "2016-05-12T23:54:05.087856",
+  "status_code": 403,
+  "response_text": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>403 You are banned from this site.  Please contact via a different client configuration if you believe that this is a mistake.</title>\n  </head>\n  <body>\n    <h1>Error 403 You are banned from this site.  Please contact via a different client configuration if you believe that this is a mistake.</h1>\n    <p>You are banned from this site.  Please contact via a different client configuration if you believe that this is a mistake.</p>\n    <h3>Guru Meditation:</h3>\n    <p>XID: 508069324</p>\n    <hr>\n    <p>Varnish cache server</p>\n  </body>\n</html>\n",
+  "headers": {
+    "X-Iinfo": "10-81135004-81108001 PNNN RT(1463122301067 0) q(0 0 0 -1) r(1 1) U5",
+    "Retry-After": "5",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Set-Cookie": "visid_incap_121505=gWxaZbvXRa69S8L72EPV7315NVcAAAAAQUIPAAAAAADtjr8g1eMPbbvuXUXQGX7B; expires=Fri, 12 May 2017 08:49:58 GMT; path=/; Domain=.economist.com, nlbi_121505=KsQHVfXyDmY4a5O5A0pflAAAAABNSNIkGs+dUxPqeqkpKqed; path=/; Domain=.economist.com, incap_ses_133_121505=MOovHY3H8S5rTQTRRITYAX15NVcAAAAABLn32bdqy4UCGZ0rnOIXUg==; path=/; Domain=.economist.com, ___utmvmOFuZKyc=VDOzoKbOEBF; path=/; Max-Age=900, ___utmvaOFuZKyc=dci\u0001UZRw; path=/; Max-Age=900, ___utmvbOFuZKyc=uZI\r\n    XJwOOale: JtI; path=/; Max-Age=900",
+    "Date": "Fri, 13 May 2016 06:51:41 GMT",
+    "Content-Encoding": "gzip",
+    "Server": "Varnish",
+    "X-CDN": "Incapsula",
+    "Content-Type": "text/html; charset=utf-8",
+    "X-Varnish": "508069324"
+  },
+  "response_url": "http://www.economist.com/feeds/print-sections/76/britain.xml"
+}

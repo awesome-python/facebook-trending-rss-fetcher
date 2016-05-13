@@ -1,0 +1,25 @@
+{
+  "requested_url": "http://www.thehindu.com/sci-tech/health/?service=rss",
+  "fetched_at": "2016-05-12T23:52:29.524615",
+  "status_code": 200,
+  "response_text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss version=\"2.0\">\n<channel>\n<title>The Hindu - Health</title>\n<link>http://www.thehindu.com/</link>\n<description>RSS feed</description>\n<language>en-us</language>\n<copyright>Copyright 2016 The Hindu</copyright>\n</channel>\n</rss>\n",
+  "headers": {
+    "Server": "Apache-Coyote/1.1",
+    "Vary": "Accept-Encoding",
+    "Content-Language": "en",
+    "Last-Modified": "Fri, 13 May 2016 06:47:22 GMT, Tue, 10 May 2016 18:30:00 GMT",
+    "Date": "Fri, 13 May 2016 06:50:06 GMT",
+    "Content-Encoding": "gzip",
+    "X-Served-By": "cache-2",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Expires": "Fri, 13 May 2016 06:50:19 GMT",
+    "Cache-Control": "max-age=13",
+    "X-Cache-Hits": "10",
+    "Connection": "keep-alive",
+    "Content-Length": "198",
+    "Content-Type": "application/rss+xml;charset=UTF-8",
+    "Accept-Ranges": "bytes",
+    "ETag": "\"154a8de9d85\""
+  },
+  "response_url": "http://www.thehindu.com/sci-tech/health/?service=rss"
+}

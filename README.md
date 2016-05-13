@@ -4,7 +4,7 @@ A quickie Python 3.5 script that parses the [PDF-listing of RSS feeds](data/rss-
 
 # Background
 
-On May 12, 2016, Gizmodo published an article titled, [Facebook Admits Its Trending Section Includes Topics Not Actually Trending on Facebook](http://gizmodo.com/facebook-admits-its-trending-section-includes-topics-no-1776319308), which covered the fallout from its previous revelation that [Facebook's Trending Section is mostly human-curated](http://gizmodo.com/former-facebook-workers-we-routinely-suppressed-conser-1775461006). As part of its response, Facebook released a list of 1,000 RSS feeds that it says it uses to crawl for interesting news stories that may not yet have percolated through its social shares.
+On May 12, 2016, Gizmodo published an article titled, [Facebook Admits Its Trending Section Includes Topics Not Actually Trending on Facebook](http://gizmodo.com/facebook-admits-its-trending-section-includes-topics-no-1776319308), which covered the fallout from Gizmodo's previous reporting that [Facebook's Trending Section is mostly human-curated](http://gizmodo.com/former-facebook-workers-we-routinely-suppressed-conser-1775461006). As part of its response, Facebook released a list of 1,000 RSS feeds ([as a PDF file](https://fbnewsroomus.files.wordpress.com/2016/05/rss-urls.pdf)) that it says it uses to crawl for interesting news stories that may not have yet percolated through its social shares.
 
 This repo contains code (and the results) to convert that PDF list into a machine-readable CSV ([data/rss-urls.csv](data/rss-urls.csv)) and then to fetch each RSS URL. A few of the URLs 404, but programmers who know how to parse XML can make use of the [retrieved data](data/feeds/) to do their own content analysis.
 
