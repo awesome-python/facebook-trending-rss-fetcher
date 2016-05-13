@@ -8,6 +8,14 @@ On May 12, 2016, Gizmodo published an article titled, [Facebook Admits Its Trend
 
 This repo contains code (and the results) to convert that PDF list into a machine-readable CSV ([data/rss-urls.csv](data/rss-urls.csv)) and then to fetch each RSS URL. A few of the URLs 404, but programmers who know how to parse XML can make use of the [retrieved data](data/feeds/) to do their own content analysis.
 
+Note: There appears to be only __929__ lines in Facebook's list of RSS feeds, according to `wc -l data/rss-urls.csv`, not "1,000". And when counting uniques --
+
+~~~sh
+csvcut -c3 data/rss-urls.csv | sort | uniq | wc -l
+~~~
+
+The result is __888__ lines. 
+
 
 # About the collected data
 
