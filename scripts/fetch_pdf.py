@@ -4,7 +4,7 @@ requires pdftotext via poppler: https://poppler.freedesktop.org/
 
 from pathlib import Path
 from subprocess import Popen, PIPE
-
+import csv
 import requests
 DATA_DIR = Path('data')
 DATA_DIR.mkdir(exist_ok=True)
@@ -23,10 +23,12 @@ rows = []
 with Popen(['pdftotext', '-layout', str(PDF_PATH), '-'], stdout=PIPE, universal_newlines=True) as p:
     for txt in p.stdout:
         line = txt.strip()
-        print(i, line)
         if ' ' in line:
-            rows.append(line.split(' '))
-        else:
+            rows.append(line.split(' ', 2)) # e.g. ['country', 'category', 'rss-url']
+        else: # it's runoff from the previous URL
             rows[-1][-1] += line
 
-
+# now write to CSV (skip the first line)
+with CSV_PATH.open('w') as wf:
+    cwf = csv.writer(wf)
+    cwf.writerows(rows[1:])
