@@ -1,0 +1,16 @@
+{
+  "requested_url": "http://content.usatoday.com/marketing/rss/rsstrans.aspx?feedId=news2",
+  "fetched_at": "2016-05-13T00:26:19.910607",
+  "status_code": 400,
+  "response_text": "<HTML><HEAD>\n<TITLE>Invalid URL</TITLE>\n</HEAD><BODY>\n<H1>Invalid URL</H1>\nThe requested URL \"&#47;marketing&#47;rss&#47;rsstrans&#46;aspx&#63;feedId&#61;news2\", is invalid.<p>\nReference&#32;&#35;9&#46;b73819b8&#46;1463124236&#46;b3eb8473\n</BODY></HTML>\n",
+  "headers": {
+    "Date": "Fri, 13 May 2016 07:23:56 GMT",
+    "Content-Length": "254",
+    "Expires": "Fri, 13 May 2016 07:23:56 GMT",
+    "Mime-Version": "1.0",
+    "Server": "AkamaiGHost",
+    "Connection": "close",
+    "Content-Type": "text/html"
+  },
+  "response_url": "http://content.usatoday.com/marketing/rss/rsstrans.aspx?feedId=news2"
+}

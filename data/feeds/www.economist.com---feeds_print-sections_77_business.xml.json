@@ -1,0 +1,20 @@
+{
+  "requested_url": "http://www.economist.com/feeds/print-sections/77/business.xml",
+  "fetched_at": "2016-05-13T00:27:00.448693",
+  "status_code": 403,
+  "response_text": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>403 You are banned from this site.  Please contact via a different client configuration if you believe that this is a mistake.</title>\n  </head>\n  <body>\n    <h1>Error 403 You are banned from this site.  Please contact via a different client configuration if you believe that this is a mistake.</h1>\n    <p>You are banned from this site.  Please contact via a different client configuration if you believe that this is a mistake.</p>\n    <h3>Guru Meditation:</h3>\n    <p>XID: 507159120</p>\n    <hr>\n    <p>Varnish cache server</p>\n  <script type=\"text/javascript\">\n//<![CDATA[\n(function() {\nvar _analytics_scr = document.createElement('script');\n_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=2977d8d74f63d7f8fedbea018b7a1d05&ns=1';\nvar _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);\n})();\n// ]]>\n</script></body>\n</html>\n",
+  "headers": {
+    "Date": "Fri, 13 May 2016 07:24:37 GMT",
+    "Transfer-Encoding": "chunked",
+    "Content-Encoding": "gzip",
+    "Content-Type": "text/html; charset=utf-8",
+    "X-Varnish": "507159120",
+    "X-Iinfo": "10-81556908-81551660 PNNN RT(1463124276763 6) q(0 0 0 0) r(1 1) U5",
+    "Retry-After": "5",
+    "Server": "Varnish",
+    "X-CDN": "Incapsula",
+    "Connection": "keep-alive",
+    "Set-Cookie": "visid_incap_121505=UdPeIDNJSBWJdsJdUibmrDSBNVcAAAAAQUIPAAAAAAC3t04vOFRt8c6ng/+lUOGl; expires=Fri, 12 May 2017 08:49:58 GMT; path=/; Domain=.economist.com, nlbi_121505=TsGRJ/Gv7jZZwdCeA0pflAAAAABtM6OKeRyfbXOih76EQXg6; path=/; Domain=.economist.com, incap_ses_133_121505=KPicGzZ8/UPcMwvRRITYATSBNVcAAAAADB9FmndGJ/AWtsxf/lGavA==; path=/; Domain=.economist.com, ___utmvmOFuZKyc=KGVTqSlkgql; path=/; Max-Age=900, ___utmvaOFuZKyc=JqN\u0001FIIX; path=/; Max-Age=900, ___utmvbOFuZKyc=EZi\r\n    XaROkalW: VtI; path=/; Max-Age=900"
+  },
+  "response_url": "http://www.economist.com/feeds/print-sections/77/business.xml"
+}
