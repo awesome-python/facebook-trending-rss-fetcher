@@ -74,7 +74,7 @@ RSS feeds have different formats...which is why I haven't taken the time to writ
 
 # Doing your own fetch
 
-My scripts have some exotic dependencies even though they does little more than just fetch URLs:
+My scripts have some exotic dependencies even though they do little more than just fetch URLs:
 
 - Python 3.5 (and its new standard library modules such as [pathlib](https://docs.python.org/3/library/pathlib.html))
 - The [deco library](https://github.com/alex-sherman/deco) -- which has _just_ been updated to 3.5 -- for easy concurrency. You can remove the `@concurrent` and `@synchronized` decorators if you don't want the fuss. I had to install the egg straight from Github:
