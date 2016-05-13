@@ -1,0 +1,20 @@
+{
+  "requested_url": "http://www.economist.com/topics/australia/index.xml",
+  "fetched_at": "2016-05-12T23:56:43.561780",
+  "status_code": 403,
+  "response_text": "<!DOCTYPE html>\n<html>\n  <head>\n    <title>403 You are banned from this site.  Please contact via a different client configuration if you believe that this is a mistake.</title>\n  </head>\n  <body>\n    <h1>Error 403 You are banned from this site.  Please contact via a different client configuration if you believe that this is a mistake.</h1>\n    <p>You are banned from this site.  Please contact via a different client configuration if you believe that this is a mistake.</p>\n    <h3>Guru Meditation:</h3>\n    <p>XID: 399950982</p>\n    <hr>\n    <p>Varnish cache server</p>\n  </body>\n</html>\n",
+  "headers": {
+    "X-Iinfo": "6-28628417-28628418 NNNN CT(63 -1 0) RT(1463122459952 5) q(0 0 1 -1) r(1 1) U5",
+    "Retry-After": "5",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Set-Cookie": "visid_incap_121505=6gXxTEhYT+CIJyfQFg/DJRx6NVcAAAAAQUIPAAAAAACzNPBRYcxJ+ZJV8512gObu; expires=Fri, 12 May 2017 08:49:58 GMT; path=/; Domain=.economist.com, nlbi_121505=EI34Gw5aNRT64jqNA0pflAAAAAAPg5q1gAPtGqUrZ0cJv81L; path=/; Domain=.economist.com, incap_ses_133_121505=PIGKKZtkq3+h2QTRRITYARx6NVcAAAAABve6rUElQrt4ikCwjXB6tA==; path=/; Domain=.economist.com, ___utmvmOFuZKyc=VWcYqxTBcZc; path=/; Max-Age=900, ___utmvaOFuZKyc=Fgp\u0001pgCp; path=/; Max-Age=900, ___utmvbOFuZKyc=UZe\r\n    XFFOqalc: VtD; path=/; Max-Age=900",
+    "Date": "Fri, 13 May 2016 06:54:20 GMT",
+    "Content-Encoding": "gzip",
+    "Server": "Varnish",
+    "X-CDN": "Incapsula",
+    "Content-Type": "text/html; charset=utf-8",
+    "X-Varnish": "399950982"
+  },
+  "response_url": "http://www.economist.com/topics/australia/index.xml"
+}

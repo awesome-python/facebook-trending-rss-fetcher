@@ -13,7 +13,7 @@ This repo contains code (and the results) to convert that PDF list into a machin
 
 The [data/feeds/](data/feeds/) folder already includes results from a fetch on __2016-05-12__, read the [directions further below](#mark-own-fetch) if you want to run it from scratch. The [data/feeds/](data/feeds/) contains JSON files that include the __metadata__ when requesting a given RSS URL. If successful, the serialized JSON object contains the raw, unparsed XML in a field named `response_text` (i.e. I haven't extracted the individual news items from each valid RSS feed).
 
-Here's an example of how http://deadline.com/feed (saved as: [data/deadline.com_feed.json](data/deadline.com_feed.json)) is serialized:
+Here's an example of how http://deadline.com/feed (saved as: [data/deadline.com_feed.json](data/feeds/deadline.com_feed.json)) is serialized:
 
 ~~~json
 {
@@ -38,6 +38,27 @@ Here's an example of how http://deadline.com/feed (saved as: [data/deadline.com_
   "response_url": "http://deadline.com/feed/"
 }
 ~~~
+
+
+If you are looking to deserialize the XML, here's one way to do it (using the [xmltodict](https://github.com/martinblech/xmltodict) lib):
+
+~~~py
+import json
+import xmltodict
+jdata = json.load(open('data/feeds/deadline.com_feed.json'))
+feed = xmltodict.parse(jdata['response_text'])
+print(feed['rss']['channel']['title'])
+# Deadline
+items = feed['rss']['channel']['item']
+len(items)
+# 12
+print(items[4]['title']) 
+# The CW Looking To Redevelop Kevin Williamson Paranormal Drama
+print(items[4]['link'])
+# http://deadline.com/2016/05/kevin-williamson-paranormal-drama-pilot-redeveloped-the-cw-1201755022/
+~~~
+
+RSS feeds have different formats...which is why I haven't taken the time to write a deserializer myself, but I'm sure someone more familiar with RSS can do it easily.
 
 
 
