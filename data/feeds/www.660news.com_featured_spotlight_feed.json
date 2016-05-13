@@ -1,0 +1,24 @@
+{
+  "requested_url": "http://www.660news.com/featured/spotlight/feed/",
+  "fetched_at": "2016-05-12T23:48:51.014872",
+  "status_code": 200,
+  "response_text": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\n\t\n\t>\n<channel>\n\t<title>Comments on: </title>\n\t<atom:link href=\"http://www.660news.com/featured/spotlight/feed/\" rel=\"self\" type=\"application/rss+xml\" />\n\t<link>http://www.660news.com</link>\n\t<description>Calgary&#039;s All News Radio</description>\n\t<lastBuildDate>Thu, 12 May 2016 20:01:33 +0000</lastBuildDate>\n\t<sy:updatePeriod>hourly</sy:updatePeriod>\n\t<sy:updateFrequency>1</sy:updateFrequency>\n\t<generator>http://wordpress.org/?v=4.2.4</generator>\n</channel>\n</rss>",
+  "headers": {
+    "X-Powered-By": "PHP/5.5.25",
+    "X-UA-Compatible": "IE=Edge,chrome=1,requiresActiveX=true",
+    "Last-Modified": "Thu, 12 May 2016 20:01:33 GMT",
+    "X-Pingback": "http://www.660news.com/xmlrpc.php",
+    "Date": "Fri, 13 May 2016 06:46:28 GMT",
+    "Server": "nginx",
+    "Expires": "Fri, 13 May 2016 06:48:28 GMT",
+    "X-Robots-Tag": "noindex,follow",
+    "Cache-Control": "must-revalidate, max-age=120",
+    "X-SDE-Name": "newsws26",
+    "Content-Length": "729",
+    "X-Cache-Lookup": "HIT from gc05:80",
+    "ETag": "\"d2b58a077572dbf844b668e858cbe267\"",
+    "Content-Type": "text/xml; charset=UTF-8",
+    "Connection": "keep-alive"
+  },
+  "response_url": "http://www.660news.com/featured/spotlight/feed/"
+}

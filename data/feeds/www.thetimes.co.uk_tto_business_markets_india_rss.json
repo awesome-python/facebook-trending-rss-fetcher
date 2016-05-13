@@ -1,0 +1,32 @@
+{
+  "requested_url": "http://www.thetimes.co.uk/tto/business/markets/india/rss",
+  "fetched_at": "2016-05-12T23:52:08.813149",
+  "status_code": 200,
+  "response_text": "\n<?xml-stylesheet type=\"text/xsl\" href=\"/tto/public/xsl/rss.xsl\"?>\n<rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\">\n<channel>\n<title>India | The Times</title>\n<description>The latest news and comment from thetimes.co.uk</description>\n<language>en-uk</language>\n<copyright>Copyright 2015 Times Newspapers Ltd.</copyright>\n<webMaster>support@thetimes.co.uk</webMaster>\n<link>http://www.thetimes.co.uk</link>\n<lastBuildDate>Fri May 13 07:27:18 BST 2016</lastBuildDate>\n<category>Newspapers</category>\n<image>\n<title>The Times</title>\n<width>144</width>\n<height>34</height>\n<link>http://www.thetimes.co.uk/tto/feedindex/</link>\n<url>http://www.thetimes.co.uk/tto/public/img/thetimes144.gif</url>\n</image>\n<item>\n<title>Vedanta owner finds a rich seam of extra funding</title>\n<link><![CDATA[http://www.thetimes.co.uk/tto/business/markets/india/article4469828.ece]]></link>\n<guid><![CDATA[http://www.thetimes.co.uk/tto/business/markets/india/article4469828.ece]]></guid>\n<pubDate>Mon, 15 Jun 2015 00:01:00 GMT</pubDate>\n<atom:updated>2015-06-14T11:46:28Z</atom:updated>\n<description>Anil Agarwal is restructuring his empire to give Vedanta Resources, the \ndebt-laden FTSE 250 miner that he controls, access to...</description>\n</item>\n<item>\n<title>India hopes rate cut puts growth back on track</title>\n<link><![CDATA[http://www.thetimes.co.uk/tto/business/markets/india/article4458820.ece]]></link>\n<guid><![CDATA[http://www.thetimes.co.uk/tto/business/markets/india/article4458820.ece]]></guid>\n<pubDate>Wed, 03 Jun 2015 00:01:00 GMT</pubDate>\n<atom:updated>2015-06-03T09:21:13Z</atom:updated>\n<description>India\u2019s central bank has slashed interest rates for the third time this year \nas it pushes to revive growth, amid...</description>\n</item>\n<item>\n<title>Indian billionaire set to face fraud trial in Singapore</title>\n<link><![CDATA[http://www.thetimes.co.uk/tto/business/industries/banking/article4450046.ece]]></link>\n<guid><![CDATA[http://www.thetimes.co.uk/tto/business/industries/banking/article4450046.ece]]></guid>\n<pubDate>Mon, 25 May 2015 00:01:00 GMT</pubDate>\n<atom:updated>2015-05-25T12:17:47Z</atom:updated>\n<description>One of India\u2019s richest men is set to face trial this month after a London-listed company accused him of defrauding...</description>\n</item>\n</channel>\n</rss>\n",
+  "headers": {
+    "x-cachemod-currenttl": "1674.078s",
+    "x-client-ttl": "50",
+    "x-cachemod-origttl": "max-age=1800",
+    "Last-Modified": "Fri, 13 May 2016 06:27:18 GMT",
+    "Content-Type": "text/xml;charset=UTF-8",
+    "Vary": "Accept-Encoding",
+    "Accept-Ranges": "bytes",
+    "hashkey": "/tto/business/markets/india/rss:tto",
+    "objttl": "",
+    "Set-Cookie": "JSESSIONID=9674192263AFBA155CF39A02F482C772; Path=/tto, nuk_customer_location_hint=UK; path=/; domain=.thetimes.co.uk",
+    "X-origcc": "max-age=50",
+    "Date": "Fri, 13 May 2016 06:49:45 GMT",
+    "Content-Encoding": "gzip",
+    "Server": "Apache-Coyote/1.1",
+    "X-origd": "Fri, 13 May 2016 06:29:25 GMT",
+    "X-ws": "docache1,ttocda44b",
+    "X-Varnish": "1100230206 1100229326",
+    "Cache-Control": "max-age=50",
+    "X-NU-AKA-ACS-Version": "1.1",
+    "Connection": "keep-alive",
+    "X-Clacks-Overhead": "GNU Terry Pratchett",
+    "ETag": "\"2015-06-14 19:02:19.509-430-BusinessMarketsIndia-2012-06-14 15:04:53.704\"",
+    "Content-Length": "948"
+  },
+  "response_url": "http://www.thetimes.co.uk/tto/business/markets/india/rss"
+}

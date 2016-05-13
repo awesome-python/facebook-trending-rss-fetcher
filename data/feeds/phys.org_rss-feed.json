@@ -1,0 +1,12 @@
+{
+  "requested_url": "http://phys.org/rss-feed/",
+  "fetched_at": "2016-05-12T23:46:53.682097",
+  "status_code": 400,
+  "response_text": "<html><body><h1>400 Bad request</h1>\nYour browser sent an invalid request.\n</body></html>\n\n",
+  "headers": {
+    "Cache-Control": "no-cache",
+    "Content-Type": "text/html",
+    "Connection": "close"
+  },
+  "response_url": "http://phys.org/rss-feed/"
+}

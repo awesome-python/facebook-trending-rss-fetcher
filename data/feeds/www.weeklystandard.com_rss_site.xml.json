@@ -1,0 +1,15 @@
+{
+  "requested_url": "http://www.weeklystandard.com/rss/site.xml",
+  "fetched_at": "2016-05-12T23:45:40.330354",
+  "status_code": 403,
+  "response_text": "<html>\r\n<head><title>403 Forbidden</title></head>\r\n<body bgcolor=\"white\">\r\n<center><h1>403 Forbidden</h1></center>\r\n<hr><center>nginx/1.10.0</center>\r\n</body>\r\n</html>\r\n",
+  "headers": {
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Date": "Fri, 13 May 2016 06:43:17 GMT",
+    "Content-Encoding": "gzip",
+    "Server": "NetDNA-cache/2.2",
+    "Content-Type": "text/html"
+  },
+  "response_url": "http://www.weeklystandard.com/rss/site.xml"
+}

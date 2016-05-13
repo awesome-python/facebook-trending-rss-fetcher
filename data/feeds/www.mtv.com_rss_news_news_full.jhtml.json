@@ -1,0 +1,19 @@
+{
+  "requested_url": "http://www.mtv.com/rss/news/news_full.jhtml",
+  "fetched_at": "2016-05-12T23:47:51.253280",
+  "status_code": 200,
+  "response_text": "\n\t\t\n\t\t",
+  "headers": {
+    "X-EdgeConnect-Cache-Status": "1",
+    "X-PageCached": "true",
+    "Content-Length": "6",
+    "Cache-Control": "max-age=300",
+    "Date": "Fri, 13 May 2016 06:45:28 GMT",
+    "Server": "Apache",
+    "ETag": "\"f60a698092b0be5af9e1549733c1b51b\"",
+    "Content-Type": "text/html",
+    "Connection": "keep-alive",
+    "X-Cache-Term": "short"
+  },
+  "response_url": "http://www.mtv.com/news/feed/?redirected_from=www.mtv.com/rss/news/news_full.jhtml"
+}
