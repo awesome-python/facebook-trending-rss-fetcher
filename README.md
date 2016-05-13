@@ -85,14 +85,19 @@ My scripts have some exotic dependencies even though they does little more than 
 
 
 
+### Fetching and parsing the PDF of URLs
 
-To re-populate the [data/](data) folder:
+
+To re-fetch [Facebook's PDF](https://fbnewsroomus.files.wordpress.com/2016/05/rss-urls.pdf) and re-parse it into [data/rss-urls.csv](data/rss-urls.csv):
 
 ~~~sh
 $ python scripts/fetch_pdf.py 
 ~~~
 
-This will create the [data/rss-urls.csv](data/rss-urls.csv) file. The following script will run through each entry and fetch each RSS file and save the response to a corresponding JSON file in [data/feeds/](data/feeds/):
+
+### Fetching each feed URL and serializing the response
+
+The following script will run through each entry in [data/rss-urls.csv](data/rss-urls.csv) to fetch each RSS URL and save the response to a corresponding JSON file in [data/feeds/](data/feeds/):
 
 ~~~sh
 $ python scripts/fetch_feeds.py 
