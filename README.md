@@ -161,7 +161,7 @@ The JSON file for each fetch attempt includes metadata -- such as the headers, H
 
 ## Metrics
 
-There's a [scripts/metrics.py] that simply counts up the metadata:
+There's a [scripts/metrics.py](scripts/metrics.py) that simply counts up the metadata:
 
 ~~~
 Status code metrics:
