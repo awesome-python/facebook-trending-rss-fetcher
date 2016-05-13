@@ -16,6 +16,59 @@ csvcut -c3 data/rss-urls.csv | sort | uniq | wc -l
 
 The result is __888__ lines. 
 
+Each URL is given a country and category. Here's the group count of those fields:
+
+| count | country |     topic     |
+|-------|---------|---------------|
+|    11 | AU      | business      |
+|    10 | AU      | entertainment |
+|    20 | AU      | general       |
+|    10 | AU      | health        |
+|    13 | AU      | politics      |
+|     7 | AU      | science       |
+|    11 | AU      | sports        |
+|     7 | AU      | tech          |
+|    20 | CA      | business      |
+|    35 | CA      | entertainment |
+|     5 | CA      | gaming        |
+|    30 | CA      | general       |
+|    19 | CA      | health        |
+|    15 | CA      | politics      |
+|    13 | CA      | science       |
+|    18 | CA      | sports        |
+|    16 | CA      | tech          |
+|    17 | GB      | business      |
+|    39 | GB      | entertainment |
+|     5 | GB      | gaming        |
+|    25 | GB      | general       |
+|    18 | GB      | health        |
+|    21 | GB      | politics      |
+|    13 | GB      | science       |
+|    17 | GB      | sports        |
+|    11 | GB      | tech          |
+|    27 | IN      | business      |
+|    21 | IN      | entertainment |
+|     1 | IN      | gaming        |
+|    33 | IN      | general       |
+|    12 | IN      | health        |
+|    29 | IN      | politics      |
+|    10 | IN      | science       |
+|    19 | IN      | sports        |
+|    13 | IN      | tech          |
+|    17 | US      | business      |
+|    35 | US      | entertainment |
+|    30 | US      | gaming        |
+|    39 | US      | general       |
+|    41 | US      | health        |
+|    47 | US      | politics      |
+|    48 | US      | science       |
+|    14 | US      | sports        |
+|    66 | US      | tech          |
+
+
+
+
+
 
 # About the collected data
 
