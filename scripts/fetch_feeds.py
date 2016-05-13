@@ -32,12 +32,12 @@ def fetch_feed(url):
     finally:
         u = urlparse(url)
         fn = u.netloc + '---' + u.path[1:] + '__' + u.query
-        fpath = FEEDS_DIR.joinpath(sub(r'[^\w\.\-]+', '_', fn.strip('_') + '.json'))
+        fpath = FEEDS_DIR.joinpath(sub(r'[^\w\.\-]+', '_', fn).strip('_') + '.json')
         with fpath.open('w') as f:
             json.dump(d, f, indent=2)
             print("Status code: {0}; Wrote to: {1}".format(d['status_code'], fpath))
 
-
+@synchronized
 def main():
     for line in csv.DictReader(CSV_PATH.open('r')):
         url = line['rss-url']

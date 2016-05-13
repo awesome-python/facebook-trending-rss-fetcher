@@ -21,7 +21,7 @@ The result is __888__ lines.
 
 The [data/feeds/](data/feeds/) folder already includes results from a fetch on __2016-05-12__, read the [directions further below](#mark-own-fetch) if you want to run it from scratch. The [data/feeds/](data/feeds/) contains JSON files that include the __metadata__ when requesting a given RSS URL. If successful, the serialized JSON object contains the raw, unparsed XML in a field named `response_text` (i.e. I haven't extracted the individual news items from each valid RSS feed).
 
-Here's an example of how http://deadline.com/feed (saved as: [data/deadline.com_feed.json](data/feeds/deadline.com_feed.json)) is serialized:
+Here's an example of how http://deadline.com/feed (saved as: [data/deadline.com---feed.json](data/feeds/deadline.com---feed.json)) is serialized:
 
 ~~~json
 {
@@ -74,8 +74,19 @@ RSS feeds have different formats...which is why I haven't taken the time to writ
 
 # Doing your own fetch
 
-To re-populate the [data/](data) folder:
+My scripts have some exotic dependencies even though they does little more than just fetch URLs:
 
+- Python 3.5 (and its new standard library modules such as [pathlib](https://docs.python.org/3/library/pathlib.html))
+- The [deco library](https://github.com/alex-sherman/deco) -- which has _just_ been updated to 3.5 -- for easy concurrency. You can remove the `@concurrent` and `@synchronized` decorators if you don't want the fuss. I had to install the egg straight from Github:
+
+      pip install -e git+https://github.com/alex-sherman/deco.git#egg=deco
+
+- The [scripts/fetch_pdf.py](scripts/fetch_pdf.py) script requires [Poppler](https://poppler.freedesktop.org/) to run pdftotext via the shell.
+
+
+
+
+To re-populate the [data/](data) folder:
 
 ~~~sh
 $ python scripts/fetch_pdf.py 
